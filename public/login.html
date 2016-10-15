@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>login page</title>
-</head>
+  <head>
+        <title>Travel-News</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+        <link href="../public/assets/style.css" rel="stylesheet">
+  </head>
 <body>
 <div class="header navbar2 navbar-inverse navbar-static-top" id="top">
     <div class="navbar-header" id='logoName'>
         <img src="" alt="Logo" id='logo' class="navbar=left">
-        <h1 id='tname'>Eleuth</h1>
+        <h1 id='tname' text='white'>Eleuth</h1>
     </div>
     <div class="navbar-collapse collapse" id="navList">
       <ul class="nav navbar-nav navbar-right">
@@ -16,6 +23,43 @@
         </li>
       </ul>
     </div>
+    <div class= "loginBody">
+      <div class="wrapper">
+      <div class= "container">
+        <div class = "row">
+           <div class="col-md-6 col-md-offset-3 text-center enter_section">
+             <div class="sectioner">
+             <div>
+               <br>
+              <label>Username:</label>
+              <input type="text" name="username"/>
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" name="password"/>
+            </div>
+
+      <div>
+        <input type="submit" class="btn btn-lg btn-default" value="login"/>
+      <button type="button" class="btn btn-lg btn-default" type="submit"><a href="/register">New Member?</a></button>
+      </div>
+<br>
+
+
+      </form>
+    </div>
+      </div>
+      </div>
+  </div>
+</div>
+
+</div>
+<footer class = "text-center">
+  <h7>Eleuth Co.</h7>
+
+</footer>
+
+
 </div>
 </body>
 </html>
